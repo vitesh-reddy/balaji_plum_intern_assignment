@@ -1,0 +1,13 @@
+{
+          "prescription": {
+            "doctor_name": "Dr. Sharma",
+            "doctor_reg": "KA/45678/2015",
+            "diagnosis": "Viral fever",
+            "medicines_prescribed": ["Paracetamol 650mg", "Vitamin C"]
+          },
+          "bill": {
+            "consultation_fee": 1000,
+            "diagnostic_tests": 500,
+            "test_names": ["CBC", "Dengue test"]
+          }
+        }
