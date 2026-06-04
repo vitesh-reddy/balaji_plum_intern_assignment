@@ -19,10 +19,10 @@ const Navbar: React.FC = () => {
       <div className="navbar-container">
         <div className="navbar-brand">
           <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', textDecoration: 'none' }}>
-            <div className="logo-icon">P</div>
-            <h1 style={{ color: 'var(--text-primary)', margin: 0 }}>Plum OPD</h1>
+            <div className="logo-icon"><img width={130} draggable={false} src="/horizontal_lookup.jpg" alt="Plum OPD" /></div>
+            {/* <h1 style={{ color: 'var(--text-primary)', margin: 0 }}>Plum OPD</h1> */}
           </Link>
-          <span className="badge" style={{ marginLeft: '1rem', background: 'var(--bg-tertiary)', color: 'var(--text-secondary)' }}>
+          <span className="badge" style={{ marginLeft: '3rem', background: 'var(--bg-tertiary)', color: 'var(--text-secondary)' }}>
             {role.toUpperCase()}
           </span>
         </div>
